@@ -38,3 +38,15 @@ function promise(delay, state) {
         }, delay);
     });
 }
+
+
+
+
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
+
+iziToast.success({
+  title: 'Success',
+  message: 'This is a test toast!',
+  position: 'topRight',
+});

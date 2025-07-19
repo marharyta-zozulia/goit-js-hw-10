@@ -16,3 +16,256 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.data-input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  margin-top: 36px;
+  margin-right: 8px;
+}
+
+.data-input:hover,
+.data-input:focus {
+  border: 1px solid #000;
+  outline: none;
+}
+
+.data-input:active {
+  border: 1px solid #4e75ff;
+  outline: none;
+}
+
+.data-input:disabled {
+  background-color: #fafafa;
+  color: #808080;
+}
+
+.start-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  background-color: #4e75ff;
+}
+
+.start-btn:hover,
+.start-btn:focus {
+  background-color: #6c8cff;
+}
+
+.start-btn:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input-label input {
+  margin-top: 8px;
+}
+
+.delay-area {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.delay-area:hover,
+.delay-area:focus {
+  border: 1px solid #000;
+  outline: none;
+}
+
+.delay-area:active {
+  border: 1px solid #4e75ff;
+  outline: none;
+}
+
+.radio-input {
+  width: 360px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  margin-bottom: 24px;
+  border: 1px solid #808080;
+}
+
+.radio-input:hover,
+.radio-input:focus {
+  border: 1px solid #000;
+  outline: none;
+}
+
+.create-btn {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.create-btn:hover,
+.create-btn:focus {
+  background-color: #6c8cff;
+}
+
+.custom-error {
+  background-color: #ef4040 !important;
+  color: #fff !important;
+}
+
+.custom-error .iziToast-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fff !important;
+}
+
+.custom-error .iziToast-message {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fff !important;
+}
+
+.custom-delay-success {
+  background-color: #59a10d !important;
+  color: #fff !important;
+}
+
+.custom-delay-success .iziToast-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fff !important;
+}
+
+.custom-delay-success .iziToast-message {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fff !important;
+}
+
+.custom-delay-error {
+  background-color: #ef4040 !important;
+  color: #fff !important;
+}
+
+.custom-delay-error .iziToast-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fff !important;
+}
+
+.custom-delay-error .iziToast-message {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fff !important;
+}

@@ -10,7 +10,7 @@
   <body>
     <load
       src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo"
+      
       highlight-curr="active"
     />
 
@@ -19,13 +19,13 @@
         <a class="back-link" href="./index.html">Go back</a>
         <h1 class="main-title">Snackbar</h1>
         <form class="form">
-          <label>
+          <label class="input-label">
             Delay (ms)
-            <input type="number" name="delay" required />
+            <input type="number" name="delay" required class="delay-area" />
           </label>
         
-          <fieldset>
-            <legend>State</legend>
+          <fieldset class="radio-input">
+            <legend class="legend-title">State</legend>
             <label>
               <input type="radio" name="state" value="fulfilled" required />
               Fulfilled
@@ -36,7 +36,8 @@
             </label>
           </fieldset>
         
-          <button type="submit">Create notification</button> </form>
+          <button type="submit" class="create-btn">Create notification</button>
+          </form>
       </div>
     </main>
 
